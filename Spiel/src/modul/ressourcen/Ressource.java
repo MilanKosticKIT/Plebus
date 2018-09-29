@@ -1,6 +1,9 @@
 package modul.ressourcen;
 
-public enum Ressourcen {
+/**
+ * Eine Aufzaehlung aller Ressourcen.
+ */
+public enum Ressource {
     Holz,
     Stein,
     Fisch,

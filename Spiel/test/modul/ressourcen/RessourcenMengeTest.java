@@ -17,7 +17,7 @@ public class RessourcenMengeTest {
      * @throws Exception Aufgetretene Exceptions
      */
     public void setUp() throws Exception {
-        rm = new RessourcenMenge(Map.of(Ressourcen.Holz, 10,Ressourcen.Stein,100,Ressourcen.Geld,300));
+        rm = new RessourcenMenge(Map.of(Ressource.Holz, 10,Ressource.Stein,100,Ressource.Geld,300));
     }
 
     @org.junit.After
@@ -27,36 +27,36 @@ public class RessourcenMengeTest {
     @org.junit.Test
     public void RessoucenMengeErstellenHolzSteinGeld(){
         try{
-            rm = new RessourcenMenge(Map.of(Ressourcen.Holz, 10,Ressourcen.Stein,100,Ressourcen.Geld,300));
+            rm = new RessourcenMenge(Map.of(Ressource.Holz, 10,Ressource.Stein,100,Ressource.Geld,300));
         }catch (Exception e){
             e.printStackTrace();
         }
 
-        assertEquals(rm.getRessource(Ressourcen.Holz), 10);
-        assertEquals(rm.getRessource(Ressourcen.Stein), 100);
-        assertEquals(rm.getRessource(Ressourcen.Geld), 300);
+        assertEquals(rm.getRessource(Ressource.Holz), 10);
+        assertEquals(rm.getRessource(Ressource.Stein), 100);
+        assertEquals(rm.getRessource(Ressource.Geld), 300);
     }
 
     @org.junit.Test
     public void RessoucenMengeErstellenFisch(){
         try{
-            rm = new RessourcenMenge(Map.of(Ressourcen.Fisch,300));
+            rm = new RessourcenMenge(Map.of(Ressource.Fisch,300));
         }catch (Exception e){
             e.printStackTrace();
         }
 
-        assertEquals(rm.getRessource(Ressourcen.Fisch), 300);
+        assertEquals(rm.getRessource(Ressource.Fisch), 300);
     }
 
     @org.junit.Test
     public void RessoucenMengeErstellenBrot(){
         try{
-            rm = new RessourcenMenge(Map.of(Ressourcen.Brot,300));
+            rm = new RessourcenMenge(Map.of(Ressource.Brot,300));
         }catch (Exception e){
             e.printStackTrace();
         }
 
-        assertEquals(rm.getRessource(Ressourcen.Brot), 300);
+        assertEquals(rm.getRessource(Ressource.Brot), 300);
     }
 
     /*
