@@ -9,7 +9,7 @@ public class RessourcenMenge {
         this.ressourcen = ressourcen;
     }
 
-    public int getRessourcen(Ressourcen ressource){
+    public int getRessource(Ressourcen ressource){
         return this.ressourcen.get(ressource);
     }
 
