@@ -1,16 +1,21 @@
 package modul.ressourcen;
 
-import org.junit.Test;
-
 import java.util.Map;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
+/**
+ * Test Klasse fuer RessourcenMenge.
+ */
 public class RessourcenMengeTest {
 
     RessourcenMenge rm;
 
-
+    /**
+     * Nicht "@before", da nicht ueberall vewendet.
+     *
+     * @throws Exception Aufgetretene Exceptions
+     */
     public void setUp() throws Exception {
         rm = new RessourcenMenge(Map.of(Ressourcen.Holz, 10,Ressourcen.Stein,100,Ressourcen.Geld,300));
     }
