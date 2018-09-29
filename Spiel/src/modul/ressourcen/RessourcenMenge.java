@@ -7,7 +7,7 @@ import java.util.Map;
  */
 public class RessourcenMenge {
     // Map mit <Ressource, Anzahl>
-    private Map<Ressourcen, Integer> ressourcen;
+    private Map<Ressource, Integer> ressourcen;
 
     /**
      * Erstellt eine RessourcenMenge aus den gegebenen Ressourcen.
@@ -23,7 +23,7 @@ public class RessourcenMenge {
      * @throws IllegalArgumentException
      *         Wenn die uebergebene Map leer ist
      */
-    public RessourcenMenge(Map<Ressourcen, Integer> ressourcen) throws IllegalArgumentException, NullPointerException {
+    public RessourcenMenge(Map<Ressource, Integer> ressourcen) throws IllegalArgumentException, NullPointerException {
         //TODO Methode implementieren
     }
 
@@ -36,7 +36,7 @@ public class RessourcenMenge {
      *         Die Ressource, dessen Anzahl zurueckgegeben wird
      * @return Die Anzahl der Ressource
      */
-    public int getRessource(Ressourcen ressource) {
+    public int getRessource(Ressource ressource) {
         //TODO Methode implementieren
         return;
     }
@@ -55,7 +55,7 @@ public class RessourcenMenge {
      * @throws IllegalArgumentException
      *         Falls die angegebene Ressource nicht in der RessourcenMenge vorhanden ist.
      */
-    public void addRessourcen(Ressourcen ressource, int anzahl) throws IllegalArgumentException {
+    public void addRessourcen(Ressource ressource, int anzahl) throws IllegalArgumentException {
         //TODO Methode implementieren.
     }
 }
