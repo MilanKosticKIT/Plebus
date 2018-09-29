@@ -1,3 +1,4 @@
 .idea
 out
 Spiel.iml
+*.DS_Store
