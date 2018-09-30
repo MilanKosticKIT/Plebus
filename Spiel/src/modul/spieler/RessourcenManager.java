@@ -10,7 +10,15 @@ public class RessourcenManager {
     private int lagerKapazitaet;
     private RessourcenMenge ressourcen;
 
-    // todo konstruktor
+    /**
+     * Erzeugt einen RessourcenManager mit der gegebenen Kapazitaet und Ressourcen.
+     *
+     * @param lagerKapazitaet Die Ausgangskapazitaet
+     * @param ressourcen Die Ausgangsressourcen
+     */
+    public RessourcenManager(int lagerKapazitaet, RessourcenMenge ressourcen) {
+        // todo implementieren
+    }
 
     /**
      * Gibt die Ressourcen des RessourcenManagers zurueck.
