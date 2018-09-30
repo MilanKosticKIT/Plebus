@@ -35,7 +35,7 @@ public class RessourcenManager {
     }
 
     /**
-     * Gibt die Lagerkapazitaet zurueck.
+     * Gibt die Lagerkapazitaet zurueck. Diese gilt fuer alle Ressourcen ausser Geld.
      *
      * @return Die Lagerkapazitaet
      */
@@ -44,7 +44,7 @@ public class RessourcenManager {
     }
 
     /**
-     * Erhoeht die LagerKapazitaet des RessourcenManagers.
+     * Erhoeht die LagerKapazitaet des RessourcenManagers. Die Kapazitaet gilt nicht fuer Geld.
      *
      * @param lagerKapazitaet Die Lagerkapazitaet, die hinzugefuegt wird
      */
