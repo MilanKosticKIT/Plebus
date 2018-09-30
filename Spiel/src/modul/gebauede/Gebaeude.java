@@ -11,15 +11,39 @@ import java.util.Set;
  * werden kann.
  */
 public abstract class Gebaeude {
-    // Die Groesse und Position des Gebaeudes auf der Karte
-    private int hoeheY;
-    private int breteX;
+    // Die Position des Gebaeudes auf der Karte
     private int positionY;
     private int positionX;
     // Die aktuelle Verbesserungsstufe des Gebaeudes
     private int gebauedeStufe;
     // Der Spieler, der das Gebaeude besitzt
     private Spieler besitzenderSpieler;
+
+    /**
+     * Erzeugt ein Gebaeude mit der gegebenen Position, Stufe und besitzenden Spieler.
+     *
+     * @param positionX Die x-Position des Gebaeudes
+     * @param positionY Die y-Position des Gebaeudes
+     * @param gebauedeStufe Die Stufe des Gebaeudes
+     * @param spieler Der Spieler, dem das Gebaeude gehoert
+     */
+    public Gebaeude(int positionX, int positionY, int gebauedeStufe, Spieler spieler) {
+        // todo implementieren
+    }
+
+    /**
+     * Gibt die Breite (x-Richtung) des Gebaeudes zurueck.
+     *
+     * @return Die Breite
+     */
+    public abstract int getBreiteX();
+
+    /**
+     * Gibt die Hoehe (y-Richtung) des Gebaeudes zurueck.
+     *
+     * @return Die Hoehe
+     */
+    public abstract int getHoeheY();
 
     /**
      * Gibt die Ressourcenkosten fuer die Verbesserung des Gebaeudes zur naechsten Stufe zurueck.
