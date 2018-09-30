@@ -13,8 +13,10 @@ public class RessourcenManager {
     /**
      * Erzeugt einen RessourcenManager mit der gegebenen Kapazitaet und Ressourcen.
      *
-     * @param lagerKapazitaet Die Ausgangskapazitaet
-     * @param ressourcen Die Ausgangsressourcen
+     * @param lagerKapazitaet
+     *         Die Ausgangskapazitaet
+     * @param ressourcen
+     *         Die Ausgangsressourcen
      */
     public RessourcenManager(int lagerKapazitaet, RessourcenMenge ressourcen) {
         // todo implementieren
@@ -31,14 +33,17 @@ public class RessourcenManager {
 
     /**
      * Fuegt die gegebenen Ressourcen dem RessourcenManager hinzu. Hierbei können die Ressourcen
-     * auch Kosten darstellen, indem sich negative Werte enthalten.
+     * auch Kosten darstellen, indem sie negative Werte enthalten.
      *
      * @param ressourcen
      *         Die RessourcenMenge, die hinzugefuegt wird
-     * @throws NullPointerException Wenn die gegebene RessourcenMenge null ist
-     * @throws IllegalArgumentException todo restliches javadoc
+     * @return Ob die Ressourcen vollstaendig hinzugefuegt wurden konnten
+     * @throws NullPointerException
+     *         Wenn die gegebene RessourcenMenge null ist
+     * @throws IllegalArgumentException
+     *         Fall durch eine negative Aenderung der Bestand einer Ressource unter 0 fallen wuerde
      */
-    public void addRessourcen(RessourcenMenge ressourcen) throws NullPointerException, IllegalArgumentException {
+    public boolean addRessourcen(RessourcenMenge ressourcen) throws NullPointerException, IllegalArgumentException {
         // todo implementieren
     }
 
@@ -54,7 +59,8 @@ public class RessourcenManager {
     /**
      * Erhoeht die LagerKapazitaet des RessourcenManagers. Die Kapazitaet gilt nicht fuer Geld.
      *
-     * @param lagerKapazitaet Die Lagerkapazitaet, die hinzugefuegt wird
+     * @param lagerKapazitaet
+     *         Die Lagerkapazitaet, die hinzugefuegt wird
      */
     public void addLagerkapazitaet(int lagerKapazitaet) {
         // todo implementieren
