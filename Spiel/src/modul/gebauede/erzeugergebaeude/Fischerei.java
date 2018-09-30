@@ -53,7 +53,7 @@ public class Fischerei {
 
     /**
      * Gibt die RessourcenMenge zurueck, die fuer den Bau der Fischerei benutzt werden soll.
-     * Hierbei enthaelt die RessourcenMenge als Kosten, also negative Resscourcen.
+     * Hierbei enthaelt die RessourcenMenge Kosten, also negative Resscourcen.
      *
      * @return Die Kosten als RessourcenMenge
      */
