@@ -74,7 +74,7 @@ public abstract class ErzeugerGebaeude extends Gebaeude {
      * @return Ob die Produktion gestoppt werden konnte, {@code false}, falls die Produktion
      * bereits gestoppt ist.
      */
-    public void stoppeProduktion() {
+    public boolean stoppeProduktion() {
         // todo implementieren
     }
 

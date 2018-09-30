@@ -9,7 +9,7 @@ public class Spielfeld {
     /**
      * Erstellt ein Spielfeld mit den gegebenen Rasterfeldern.
      *
-     * @param felder
+     * @param felder Die Rasterfelder
      */
     public Spielfeld(Rasterfeld[][] felder) {
         // todo implementieren
