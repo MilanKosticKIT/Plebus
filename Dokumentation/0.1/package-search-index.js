@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"modul.gebauede"},{"l":"modul.gebauede.erzeugergebaeude"},{"l":"modul.karte"},{"l":"modul.ressourcen"},{"l":"modul.spieler"}]
