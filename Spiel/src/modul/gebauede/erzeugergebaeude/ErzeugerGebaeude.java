@@ -84,7 +84,7 @@ public abstract class ErzeugerGebaeude extends Gebaeude {
      * @return Ob die Produktion erfolgreich beendent werden konnte, {@code false}, falls der
      * Produktionsfortschritt nicht ausreicht.
      */
-    public abstract void vollendeProduktion();
+    public abstract boolean vollendeProduktion();
 
     /**
      * Liefert den aktuellen prozentualen Produktionsfortschritt.
