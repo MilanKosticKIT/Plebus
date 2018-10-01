@@ -55,7 +55,7 @@ public class RessourcenMenge {
      * @throws IllegalArgumentException
      *         Falls die angegebene Ressource nicht in der RessourcenMenge vorhanden ist.
      */
-    public void addRessourcen(Ressource ressource, int anzahl) throws IllegalArgumentException {
+    public void addRessource(Ressource ressource, int anzahl) throws IllegalArgumentException {
         //TODO Methode implementieren.
     }
 }
